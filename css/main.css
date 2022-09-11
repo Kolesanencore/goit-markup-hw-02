@@ -8,9 +8,6 @@
     --background-second-color: #F5F4FA;
 }
 
-ul { 
-    padding-inline-start: 0; 
-}
 
 li {
     list-style: none;
@@ -28,7 +25,7 @@ html,
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
-    height: 100%; 
+    
 }
 
 /* header */
@@ -48,7 +45,6 @@ html,
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .logo {
@@ -94,7 +90,7 @@ html,
     
 }
 
-.contacts-nav .item ,
+.contacts-nav .item,
 .footer-contacts .item {
     color: var(--primary-text-color);
     text-decoration: none;
@@ -136,9 +132,7 @@ html,
 }
 
 .hero-container {
-    width: 696px;
-    height: 120px;
-    gap: 35px;
+  
 }
 
 .hero-title {
@@ -149,6 +143,7 @@ html,
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 /* hero button */
 
 .button {
