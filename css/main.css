@@ -35,9 +35,6 @@ html,
 
 .header{
     width: 1600px;
-    height: 80px;
-    display: flex;
-    align-items: center;
 }
 
 /* header logo */
@@ -201,15 +198,12 @@ html,
     }
 
 .team-title {
-    padding-top: 92px;
+    
 }
 
  .team-cards {
     width: 1170px;
     height: 368px;
-    padding: 50px 215px 94px 215px;
-    display: flex;
-    gap: 30px;
     text-align: center;
  }
 
@@ -229,12 +223,11 @@ html,
  }
  
  .footer {
-    margin-top: 48px;
+    
     width: 1600px;
     height: 252px;
     background: var(--background-black-color);
-    display: flex;
-    flex-direction: column;
+    
  }
 
  .footer-logo {
