@@ -55,7 +55,7 @@ html,
 }
 
 .logo {
-    padding-left: 215px;
+    
 }
 
 .span {
@@ -70,9 +70,7 @@ html,
 /* header site-nav */
 
 .site-nav {
-    padding-left: 94px;
-    display: flex;
-    gap: 50px;
+    
 }
 
 .site-nav .link {
@@ -96,9 +94,7 @@ html,
 /* header contacts */
 
 .contacts-nav {
-    display: flex;
-    gap: 50px;
-    padding-left: 344px;
+    
 }
 
 .contacts-nav .item ,
@@ -118,7 +114,6 @@ html,
 
 .section-title,
 .team-title {
-    height: 42px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -128,7 +123,6 @@ html,
 }
 
 .features-title {
-    height: 16px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -147,8 +141,6 @@ html,
 .hero-container {
     width: 696px;
     height: 120px;
-    padding: 195px 452px 200px 452px;
-    text-align: center;
     gap: 35px;
 }
 
@@ -186,27 +178,20 @@ html,
 /* section future */
 
  .features {
-    width: 1170px;
-    height: 98px;
-    margin: 94px 215px;
-    display: flex;
+  
    
  }
 
  .features-list {
-    display: flex;
-    gap: 30px;
+    
  }
 
  .section {
-    width: 1170px;
-    height: 386px;
-    margin: 94px 215px;
+    
 }
 
  .section-cards {
-    display: flex;
-    gap: 30px;
+   
  }
  
  .section-team {
@@ -253,16 +238,11 @@ html,
  }
 
  .footer-logo {
-    padding-left: 215px;
-    padding-top: 48px;
+    
  }
 
  .footer-address {
-    gap: 9px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-left: 215px;
+   
  }
 
  .address {
@@ -273,15 +253,11 @@ html,
  /* portfolio css */
 
  .portfolio {
-    width: 1170px;
-    height: 1360px;
-    padding: 94px 215px;
+    
 }
 
 .portfolio-menu {
-    display: flex;
-    gap: 8px;
-    justify-content: center;
+  
 }
 
 .filter-btn {
@@ -313,10 +289,7 @@ html,
 /* portfolio main box */ 
 
 .main-box {
-    padding-top: 34px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    
 }
 
 .box {
