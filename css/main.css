@@ -8,7 +8,6 @@
     --background-second-color: #F5F4FA;
 }
 
-
 li {
     list-style: none;
 }
@@ -31,14 +30,14 @@ html,
 /* header */
 
 .header{
-    width: 1600px;
+    
 }
 
 /* header logo */
 
 .logo ,
 .footer-logo {
-    color: #000000;
+   
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
@@ -48,7 +47,11 @@ html,
 }
 
 .logo {
-    
+    color: #000000;
+}
+
+.footer-logo{
+    color: var(--primary-white-color);
 }
 
 .span {
@@ -126,8 +129,7 @@ html,
 /* section hero */
 
 .hero {
-    width: 1600px;
-    height: 600px;
+    max-width: 1600px;
     background-color: var(--background-black-color);
 }
 
@@ -187,8 +189,7 @@ html,
  }
  
  .section-team {
-    width: 1600px;
-    height: 648px;
+   
     background: var(--background-second-color);
     }
 
@@ -197,7 +198,7 @@ html,
 }
 
  .team-cards {
-    width: 1170px;
+    width: 270px;
     height: 368px;
     text-align: center;
  }
@@ -210,24 +211,17 @@ html,
  }
 
  .card {
-    width: 270px;
-    height: 368px;
+    
     background: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
  }
  
  .footer {
-    
-    width: 1600px;
-    height: 252px;
     background: var(--background-black-color);
-    
  }
 
- .footer-logo {
-    
- }
+ 
 
  .footer-address {
    
@@ -281,9 +275,7 @@ html,
 }
 
 .box {
-    width: 370px;
-    height: 404px;
-    background: var(--background-second-color);  
+    background-color: var(--background-second-color);  
 }
 
 
